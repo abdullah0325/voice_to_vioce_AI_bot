@@ -21,7 +21,7 @@ docx2txt
 streamlit
 openai
 python-dotenv
-st-audiorec
+streamlit-audiorec
 langchain
 qdrant-client
 langchain-community
