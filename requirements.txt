@@ -27,3 +27,4 @@ qdrant-client
 langchain-community
 PyMuPDF
 docx2txt
+sentence-transformers

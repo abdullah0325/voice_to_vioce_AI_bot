@@ -142,6 +142,8 @@ import streamlit as st
 from st_audiorec import st_audiorec
 from utils import upload_file_and_preprosses, qa_retrieval
 load_dotenv()
+os.environ['QDRANT_KEY'] = 'qT6PMSKiR5NdA_sCXzQx8Ki2INdVJvro8YSJLvldWHEds_bJtlZcyA'
+os.environ['URL'] = 'https://86978d70-5270-493a-879d-8633c5ad0b88.us-east4-0.gcp.cloud.qdrant.io:6333'
 
 API_KEY = os.getenv("OPENAI_API_KEY")
 
